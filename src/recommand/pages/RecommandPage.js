@@ -54,7 +54,6 @@ const StyledTable = styled.table`
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #bcbcbc;
-    
 `
 
 const Styledtr = styled.tr`
