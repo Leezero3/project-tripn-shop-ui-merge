@@ -13,8 +13,7 @@ const Nacigation = () => {
             <Li><Button ><Link to='/chat/talk' style= {{textDecoration: 'none'}}>CHAT</Link></Button></Li>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
             <Li><Button><Link to='/chat/video' style= {{textDecoration: 'none'}}>VIDEO</Link></Button></Li> 
             <Li><ButtonS><Link to='/chat/video/sub' style= {{textDecoration: 'none'}}>SUB</Link></ButtonS></Li>
-            {/* <Li><button onclick="clickHandler()">Click!</button></Li> */}
-            {/* <Li><Setting/></Li> */}
+
         </Ul>
     </div>
 )}
@@ -58,7 +57,8 @@ const ButtonS = styled.button`
 
 const Ul = styled.ul`
     border-bottom : 2px  solid #93b3b7;
-    margin: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     width : 380px;
     padding: 20px;
 `

@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import { HeaderLogo } from 'login'
 // import { Link, Switch, Route, Redirect } from 'react-router-dom'
 // import {CheckId,CheckPw, ChangPw, HeaderLogo,TakeId} from 'login/index'
 
@@ -10,7 +9,6 @@ const Find = () => {
     return(
         <>
         <Div1>
-            <HeaderLogo/>
             <div>
             <Button><Link to='/login/find/check-id' style= {{textDecoration: 'none'}}>ID</Link></Button>
             <Button><Link to='/login/find/check-pw' style= {{textDecoration: 'none'}}>FW</Link></Button>
@@ -56,10 +54,10 @@ const Button = styled.button`
 `
 
 const Div1 = styled.div`
-    width:50%;
-    height:115px;
-    // display: flex;
+    width:30%;
+    height:auto;
+    display: flex;
     border: 1px solid #ffcc00;
     background-color: #ffcc00;
-    // text-align: center;
+    text-align: center;
 `

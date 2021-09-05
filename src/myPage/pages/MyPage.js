@@ -1,11 +1,10 @@
 
 
-import { PageNavigation, MyPage } from "myPage/index"
+import { MyPage } from "myPage/index"
 
 const MyPageP = () => {
     return(
         <>
-        <PageNavigation/>
         <MyPage/>
         </>
     )

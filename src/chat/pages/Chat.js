@@ -9,6 +9,7 @@ const ChatBot = () => {
         <ChDiv>
             <Nacigation/>
             <tr>
+                {/* <Nacigation/> */}
                 <Switch>
                     <Route exact path ='/chat' component = {Talk}/>
                     <Redirect from = '/chat/talk' to = {'/chat'}/>
@@ -24,7 +25,7 @@ const ChatBot = () => {
 export default ChatBot
 
 const ChDiv = styled.table`
-    width : 400px;
+    width : 430px;
     height : 600px;
     // padding:10px
     border-radius:10px;

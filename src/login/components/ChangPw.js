@@ -18,7 +18,7 @@ const ChangPw = () => {
                 
             </Div>
             <br/>
-            <button style={{textAlign:'center'}}><Link to='/login' style= {{textDecoration: 'none'}}>확인</Link></button>
+            <button style={{textAlign:'center', marginLeft:'300px'}}><Link to='/login' style= {{textDecoration: 'none'}}>확인</Link></button>
         </>
     )
 }
@@ -33,6 +33,7 @@ const Div = styled.div`
     // border-right:1px solid gray;
     // border-top:1px solid gray;
     margin-top: 50px;
+    margin-left: 40px;
     // justify-content: center;
 `
 

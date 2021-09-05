@@ -25,6 +25,7 @@ export default TakeId
 const Div = styled.div`
     margin-top: 50px;
     display: flex;
+    margin-left: 40px;
 
 `
 const Input = styled.input`

@@ -10,8 +10,10 @@ const MyPage = () => {
             <Ctd><img src={yjImg} alt='여진이미지'/></Ctd>
             <Dtd>
                 <Nav>
-                <ol><Link to="/home">My page</Link></ol>
-                <ol><Link to="/home">Home</Link></ol>       
+                <br/>
+                <br/>
+                <ol><Link to="/my-page">My page</Link></ol>
+                <ol><Link to="/home-page">Home</Link></ol>       
                 </Nav>
             </Dtd>
             <Atd>
