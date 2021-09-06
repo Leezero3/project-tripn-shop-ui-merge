@@ -19,22 +19,22 @@ const RecommandPage = () => {
             <Styledtd><ChooseDate/></Styledtd>
         </Styledtr>
         <Styledtr>
-            <Styledtd><RecommandComponent/></Styledtd>
+            <Styledtd>비행기<RecommandComponent/></Styledtd>
         </Styledtr>
         <Styledtr>
-            <Styledtd><RecommandComponent/></Styledtd>
+            <Styledtd>렌트카<RecommandComponent/></Styledtd>
         </Styledtr>
         <Styledtr>
-            <Styledtd><RecommandComponent/></Styledtd>
+            <Styledtd>숙소<RecommandComponent/></Styledtd>
         </Styledtr>
         <Styledtr>
-            <Styledtd><RecommandComponent/></Styledtd>
+            <Styledtd>엑티비티<RecommandComponent/></Styledtd>
         </Styledtr>
         <Styledtr>
-            <Styledtd><RecommandComponent/></Styledtd>
+            <Styledtd>식당<RecommandComponent/></Styledtd>
         </Styledtr>
         <Styledtr>
-            <Styledtd><RecommandComponent/></Styledtd>
+            <Styledtd>추천관광<RecommandComponent/></Styledtd>
         </Styledtr>
         <Styledtr>
             <td colSpan="3" style={{border: "1px", borderStyle:"solid", color: "#bcbcbc",}}><ReservaionTab/></td>

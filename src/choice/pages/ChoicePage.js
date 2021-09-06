@@ -19,15 +19,15 @@ const ChoicePage = () => {
             <td colSpan="3" style={{border: "1px", borderStyle:"solid", color: "#bcbcbc"}}><ChooseDate/></td>
         </Styledtr>
         <Styledtr>
-            <Styledtd><AutoRecommand/></Styledtd>
-            <Styledtd><AutoRecommand/></Styledtd>
-            <Styledtd><AutoRecommand/></Styledtd>
+            <Styledtd>비행기<AutoRecommand/></Styledtd>
+            <Styledtd>렌트카<AutoRecommand/></Styledtd>
+            <Styledtd>숙소<AutoRecommand/></Styledtd>
         </Styledtr>
        
         <Styledtr>
-            <Styledtd><AutoRecommand/></Styledtd>
-            <Styledtd><AutoRecommand/></Styledtd>
-            <Styledtd><AutoRecommand/></Styledtd>
+            <Styledtd>액티비티<AutoRecommand/></Styledtd>
+            <Styledtd>식당<AutoRecommand/></Styledtd>
+            <Styledtd>추천관광<AutoRecommand/></Styledtd>
         </Styledtr>
         <Styledtr>
             <td colSpan="3" style={{border: "1px", borderStyle:"solid", color: "#bcbcbc"}}><ReservaionTab/></td>
