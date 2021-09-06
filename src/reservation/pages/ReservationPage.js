@@ -15,7 +15,7 @@ const ReservationPage = () => {
     <BackgroundImg3 src={BackImg3}/>
     <StyledTable>   
         <Styledtr>
-            <Styledtd><ReservaionTab/></Styledtd>
+            <Styledtd><ReservaionTab/><button>pdf 다운받기</button></Styledtd>
         </Styledtr>
         <Styledtr>
             <Styledtd><VoucherTab/></Styledtd> 
